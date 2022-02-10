@@ -1,0 +1,230 @@
+::-moz-selection {
+  background-color: #ffdf2d;
+  color: black;
+}
+
+::selection {
+  background-color: #ffdf2d;
+  color: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: rgba(255, 255, 255, 0.561);
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 35px;
+}
+
+h1, h2, h3 {
+  font-family: 'Prata', serif;
+  color: white;
+  line-height: 80px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+body {
+  background-color: black;
+}
+
+button {
+  font-family: 'Prata', sefif;
+  color: black;
+  font-weight: 600;
+  background-color: #ffdf2d;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 2px;
+}
+
+button:hover {
+  background-color: rgba(255, 223, 45, 0.781);
+  cursor: pointer;
+}
+
+header {
+  margin: 0 auto;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1400px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.nav {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.nav li a {
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.nav li a:hover {
+  color: white;
+}
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.main-section {
+  width: 60%;
+}
+
+.companies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0;
+}
+
+.cases {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.case {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 650px;
+}
+
+.case h2 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.description {
+  width: 100%;
+  background-color: #3d3d3d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.greyContainer {
+  width: 100%;
+  max-width: 1400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px 0;
+}
+
+.greyContainer h2 {
+  font-size: 2rem;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.greyContainer p {
+  margin-bottom: 30px;
+}
+
+.greyContainer div {
+  max-width: 650px;
+}
+
+.contact {
+  max-width: 650px;
+  padding: 100px 0;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  margin-bottom: 30px;
+}
+
+.footer {
+  max-width: 1400px;
+  height: 100px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer img {
+  width: 2rem;
+}
+
+.greyFooter {
+  width: 100%;
+  background-color: #3d3d3d;
+}
+/*# sourceMappingURL=style.css.map */
